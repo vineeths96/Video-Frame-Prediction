@@ -143,14 +143,11 @@ dmypy.json
 # models
 */.pth.tar
 
-# Report Tex
-/results/report/
-
-# Input
-input/
-
-# Results
-results/
-
 # Docs
 docs/
+
+# Data
+data/
+
+# Model
+model/
