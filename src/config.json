@@ -1,0 +1,18 @@
+{
+    "meta":{
+        "board_path": "board"
+    },
+    "train":{
+        "epochs": 100,
+        "batch_size": 10,
+        "lr": 1e-3,
+        "print_frequency": 5
+    },
+    "model":{
+        "input_size": [64,64],
+        "input_dim": 1,
+        "hidden_dim": 64,
+        "kernel_size": [3,3],
+        "future_frames": 10
+    }
+}
